@@ -1,4 +1,4 @@
-FROM golang:1.11-alpine
+FROM golang:1.13-alpine
 MAINTAINER Atsushi Nagase <a@ngs.io> (https://ngs.io)
 
 LABEL "com.github.actions.name"="Go Release Binary"
@@ -8,7 +8,7 @@ LABEL "com.github.actions.color"="orange"
 
 LABEL "name"="Automate publishing Go build artifacts for GitHub releases through GitHub Actions"
 LABEL "version"="1.0.1"
-LABEL "repository"="http://github.com/ngs/go-release.action"
+LABEL "repository"="http://github.com/nikitadugar/go-release"
 LABEL "homepage"="http://ngs.io/t/actions/"
 
 LABEL "maintainer"="Atsushi Nagase <a@ngs.io> (https://ngs.io)"
