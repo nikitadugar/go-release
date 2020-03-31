@@ -8,5 +8,6 @@ mkdir -p $PROJECT_ROOT
 rmdir $PROJECT_ROOT
 ln -s $HOME $PROJECT_ROOT
 cd $PROJECT_ROOT
+ls -la
 go get -v ./...
 go build
